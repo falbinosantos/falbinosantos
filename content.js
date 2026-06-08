@@ -72,10 +72,10 @@ const PAPERS = [
     group: "submitted",
     year: "2026",
     title: {
-      en: "Dictionary between UCE cocycles and orthogonal polynomials",
-      pt: "Dicionário entre cociclos da UCE e polinômios ortogonais",
+      en: "A partial dictionary between universal central extensions and orthogonal polynomials in the superelliptic Krichever–Novikov setting",
+      pt: "Um dicionário parcial entre extensões centrais universais e polinômios ortogonais no contexto de Krichever–Novikov superelíptico",
     },
-    authors: "F. A. Santos · M. Neklyudov · V. Futorny",
+    authors: "F. A. Santos",
     venue: null, venueShort: null, link: null,
     metrics: { en: "Submitted 2026", pt: "Submetido em 2026" },
     arxiv: "2605.02530",
@@ -83,6 +83,24 @@ const PAPERS = [
     abstract: {
       en: "Builds an explicit dictionary between the cocycle data of the universal central extension of superelliptic Krichever–Novikov algebras — on both the current and derivation sides — and the three-term recurrences of classical and non-classical orthogonal polynomial families. The Der(A) half of the dictionary is treated systematically for the first time.",
       pt: "Constrói um dicionário explícito entre os dados de cociclo da extensão central universal de álgebras de Krichever–Novikov superelípticas — tanto no lado de correntes quanto no de derivações — e as recorrências de três termos das famílias clássicas e não-clássicas de polinômios ortogonais. O lado Der(A) do dicionário é tratado sistematicamente pela primeira vez.",
+    },
+  },
+  {
+    id: "sub-superelliptic-ii",
+    group: "submitted",
+    year: "2026",
+    title: {
+      en: "Superelliptic affine Lie algebras and orthogonal polynomials II",
+      pt: "Álgebras de Lie afins superelípticas e polinômios ortogonais II",
+    },
+    authors: "F. A. Santos · M. Neklyudov · V. Futorny",
+    venue: null, venueShort: null, link: null,
+    metrics: { en: "Submitted 2026", pt: "Submetido em 2026" },
+    arxiv: "2603.29082",
+    tags: ["superelliptic", "orthogonal polynomials", "cocycle basis", "recursion relations"],
+    abstract: {
+      en: "Let g be a finite-dimensional complex simple Lie algebra and r, m ≥ 2. The universal central extension of the superelliptic current algebra g ⊗ A is ĝ ⊗ A ≅ g ⊗ A ⊕ (Ω¹_A/dA), with A = C[t, t⁻¹, u]/⟨uᵐ − (1 − 2ctʳ + t²ʳ)⟩. Computes the recursion relations governing a natural cocycle basis and shows how they assemble into orthogonal polynomial families, extending the structural–analytic correspondence of the first paper to this superelliptic family.",
+      pt: "Seja g uma álgebra de Lie simples complexa de dimensão finita e r, m ≥ 2. A extensão central universal da álgebra de correntes superelíptica g ⊗ A é ĝ ⊗ A ≅ g ⊗ A ⊕ (Ω¹_A/dA), com A = C[t, t⁻¹, u]/⟨uᵐ − (1 − 2ctʳ + t²ʳ)⟩. Calcula as relações de recorrência que governam uma base natural de cociclos e mostra como elas se organizam em famílias de polinômios ortogonais, estendendo a correspondência estrutural–analítica do primeiro artigo a esta família superelíptica.",
     },
   },
   {
